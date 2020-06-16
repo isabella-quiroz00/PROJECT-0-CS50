@@ -1,7 +1,7 @@
 # PROJECT-0-CS50
 ## NEUROPAGE
 
-Project 0 consists principally of five html files. These contain neuroscience information, along with a variety of scientific articles related to four different emphasis of brain´s function: sleep, eat, think and the effect of viruses in the nervous system. All of these is explained more profoundly in the section of **HOME**.
+Project 0 consists principally of five html files. These contain neuroscience information, along with a variety of scientific articles related to four different emphasis of brain´s function: sleep, eat, think and the effect of viruses in the nervous system. All of these is explained more profoundly in the section of **HOME**. Additionally, this web page implements some HTML, CSS and SASS commands and properties all through the sections.
 
 ### Sleep
 This section explains briefly the stages of sleep, what regions activate or disactivate in each phase, sleep's function, and how the exam to analyze sleep works. The information in this section is organized in a table.
