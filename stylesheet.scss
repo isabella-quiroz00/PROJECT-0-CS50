@@ -1,0 +1,89 @@
+$size: 20px;
+$weight: bold;
+
+h1 {
+font-family: Calibri Light, sans-serif;
+font-size: 25px;
+text-align: center;
+padding: 20px;
+border: 3px solid black;
+width: 96%;
+background-color: lightblue;
+}
+h2 {
+font-family: Calibri Light, sans-serif;
+font-size: 20px;
+padding: 10px;
+text-align: center;
+}
+p ,h3 {
+font-family: Calibri Light, sans-serif;
+font-size: 18px;
+text-align: center;
+}
+
+h4 {
+  font-family: Calibri Light, sans-serif;
+  font-size: 20px;
+  border: 3px dotted lightblue;
+  text-align: center;
+}
+p::selection{
+  color: blue;
+  background-color: gray;
+}
+
+ul li{
+  font-family: Calibri Light, sans-serif;
+}
+
+ul > li{
+  font-weight: $weight;
+}
+
+.grid {
+  display: grid;
+  padding: 15px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  font-family: Calibri Light, sans-serif;
+  font-size: 15px;
+  grid-template-columns: auto auto auto auto auto;
+  border: 3px dotted lightblue;
+  text-align: center;
+  font-weight: bold;
+}
+
+%message {
+  font-family: Calibri Light, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 575px) {
+  body{
+    background-color: lightgray;
+  }
+}
+@media (min-width: 574px){
+  body{
+  background-color: white;
+}
+}
+
+#top {
+  @extend %message;
+  font-size: $size;
+  color: darkmagenta;
+  border: 3px dotted darkmagenta;
+  p {
+    font-weight: $weight;
+  }
+}
+
+#middle {
+  @extend %message;
+  color: teal;
+  font-size: 18px;
+  border: 3px dotted teal;
+}
